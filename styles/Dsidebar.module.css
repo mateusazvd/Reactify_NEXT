@@ -1,0 +1,83 @@
+.main{
+    width: 265px;
+    height: 100vh;
+    background-color: #181922;
+    -webkit-box-shadow: -6px 4px 15px 0px rgba(0,0,0,0.78); 
+    box-shadow: -6px 4px 15px 0px rgba(0,0,0,0.78);
+}
+.main hr{
+    color: gray;
+    border: 1px solid gray;
+    height: 0;
+    margin:0px 5px ;
+    margin-bottom: 20px;
+}
+
+.main header{
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: space-around;
+}
+.main header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+.main header p{
+    color: white;
+    width: 180px;
+    margin-left: 20px;
+}
+.exit{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color:  white;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.exit:hover{
+    color: #bd4960;
+}
+.imgPlayer{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 5px 35px;
+}
+.infoPlayArea{
+    width: 200px;
+    color: white;
+    margin: 0px 35px;
+
+
+}
+.controller{
+    display: flex;
+    justify-content: space-around;
+}
+.controllerIcon{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+.controllerIcon:hover{
+    color: gray;
+}
+
+.controllerIcon2{
+    width: 15px;
+    height: 15px;
+}
+
+.volumeArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}

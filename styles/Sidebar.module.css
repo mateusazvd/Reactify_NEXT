@@ -1,0 +1,58 @@
+.container{
+    background-color: #181922;
+        padding: 15px 10px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        min-width: 225px;
+        height: 100vh;
+        -webkit-box-shadow: 13px 1px 15px -7px rgba(0,0,0,0.8); 
+        box-shadow: 13px 1px 15px -7px rgba(0,0,0,0.8);
+        overflow-y: scroll;
+        scrollbar-width: none;
+       
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.homeIcon{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    margin-right: 10px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.container button:hover{
+    color: #bd4960;
+    
+}
+.container hr{
+    border-top: 0.1px solid gray;
+    height: 0px;
+}
+.playlistName{
+    color: #a7a7a7;
+    max-width: 200px;
+    margin-left: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.playlistName:hover{
+    color: white;
+}
+
+.exit{
+    position: absolute;
+    bottom: 20px;
+}

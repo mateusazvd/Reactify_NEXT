@@ -1,0 +1,117 @@
+
+.header{
+    width: 800px;
+    height: 55px;
+    background-color: transparent;
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+.header input{
+    height: 40px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    width: 80%;
+    outline: 0;
+    font-size: 20px;
+    color: white;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    color: white;
+}
+.divisorNav{
+    margin: 0px 5px;
+    background-color: transparent;
+    border: none;
+    height: 0;
+    border-top: 1px solid gray;
+}
+.playlistInfo{
+    padding: 30px;
+    display: flex;
+    align-items:center;
+    max-height: 300px;
+}
+.playlistInfo h2{
+    color: white;
+    font-size: 26px;
+   
+}
+
+.imgPlaylisy{
+    width: 150px;
+    height: 150px;
+    
+}
+.playlistInfoTitle{
+    margin-left: 50px;
+    color: white;
+}
+.followers{
+    color: gray;
+    margin-bottom: 50px;
+}
+.songsArea{
+    overflow-y: scroll;
+    height: 390px;
+    scrollbar-width: 0px;
+    padding: 20px 40px;
+
+
+}
+.songsArea::-webkit-scrollbar{
+    display: none;
+}
+.songArea{
+    display: flex;
+    align-items: center;
+    color: white;
+    border: 1px solid #1819227e;
+    border-left: none;
+    border-right: none;
+    margin: 10px 0;
+    padding: 5px;
+    cursor: pointer;
+    
+
+}
+.songArea:hover{
+    background-color: #4e4f5a;
+}
+.imgSong{
+    margin-left: 15px;
+    max-width: 44px;
+    max-height: 44px;
+
+}
+.SongName{
+    margin-left: 30px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.SongName p{
+    padding: 0;
+    margin: 5px;
+}
+.SongName2 p{
+    margin: 2px;
+}
+.texto{
+    text-align: right;
+}
+
+.artist{
+    color: gray;
+}
+.center{
+    max-height: 500px;
+}
+.description{
+    font-size: 14px;
+    max-width: 300px;
+}
