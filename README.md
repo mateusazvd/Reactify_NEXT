@@ -1,3 +1,11 @@
+#Reactify -- Next js
+## screenshot
+<img src="https://media.discordapp.net/attachments/903442055282429963/1012445211798024293/unknown.png?width=530&height=285" alt="">
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
